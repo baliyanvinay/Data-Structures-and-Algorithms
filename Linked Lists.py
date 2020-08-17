@@ -43,8 +43,9 @@ class Linked_list():
     def remove_node(self): # remove last element of linked list
         # step1: traverse to the last element
         last=self.head
-        while(last.next_node):
+        while(last.next_node.next_node): # checking if the next_node of next_node is not None
             last=last.next_node
+        last.next_node=None # unlinking/erasing the very last node 
     
     def display_linked_list(self):
         # to display linked_list in a structured way
@@ -58,4 +59,7 @@ class Linked_list():
 L1=Linked_list() # instance of linked list
 L1.add_node(12)
 L1.add_node(15)
+
+print(L1.display_linked_list())
+L1.remove_node()
 print(L1.display_linked_list())
