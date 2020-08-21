@@ -15,5 +15,6 @@ A deque, also known as a double-ended queue, is an ordered collection of items s
 
 ## 5. Trees
 A tree data structure has a root, branches and leaves. The difference between a tree in nature and a tree in computer science is that a tree data structure has its root at the top and its leaves on the bottom. All of the children of one node are independent of the children of another node. Each leaf node is unique. 
+Another example of a tree structure that you probably use every day is a file system. In a file system, directories or folders are structure as a tree. 
 
 ## 6. 
