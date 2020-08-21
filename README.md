@@ -9,3 +9,9 @@ A stack is an ordered collection of items where the addition of new items and re
 
 ## 3. Queue
 A Queue is an ordered collection of items where the addition of new items happens at one end, called the 'rear', and the removal of existing items occurs at the other end commonly called the 'front'. Queue of people waiting outside bank. FIFO principle. 
+
+## 4. Deque
+
+## 5. Arrays
+
+## 6. 
