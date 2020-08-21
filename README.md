@@ -6,3 +6,6 @@ In Linked list data structure, data is stored in forms of nodes(created using a 
 
 ## 2. Stacks
 A stack is an ordered collection of items where the addition of new items and removal of existing items always takes place at the same end(top). Opposite end of top is known as base. Stack of books. LIFO principle. 
+
+## 3. Queue
+A Queue is an ordered collection of items where the addition of new items happens at one end, called the 'rear', and the removal of existing items occurs at the other end commonly called the 'front'. Queue of people waiting outside bank. FIFO principle. 
