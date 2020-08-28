@@ -3,6 +3,7 @@ class Node(object):
     def __init__(self, value): # a node in BT would have left and right child
         self.value=value
         self.left_child, self.right_child=None, None
+      
         
 class BinaryTree(object):
     def __init__(self):
@@ -38,6 +39,32 @@ class BinaryTree(object):
             print(curr_node.value)
             self._print_tree(curr_node.right_child)
     
+    def height(self):
+        if self.root is not None:
+            return self._height(self.root, 0)
+        else: 
+            return 0
+    
+    def _height(self, curr_node, curr_height):
+        if curr_node is None: return curr_height
+        left_height=self._height(curr_node.left_child, curr_height+1)
+        right_height=self._height(curr_node.right_child, curr_height+1)
+        return max(left_height, right_height)
+
+    def search(self, value):
+        if self.root is not None:
+            return self._search(value, self.root)
+    
+    def _search(self, value, curr_node):
+        if value==curr_node.value:
+            return True
+        elif value<curr_node.value and curr_node.left_child is not None:
+            return self._search(value, curr_node.left_child)
+        elif value>curr_node.value and curr_node.right_child is not None:
+            return self._search(value, curr_node.right_child)
+        return False
+
+
 def fill_tree(tree, num_elems=20, max_int=100):
     from random import randint
     for _ in range(num_elems):
@@ -48,3 +75,6 @@ def fill_tree(tree, num_elems=20, max_int=100):
 tree=BinaryTree()
 tree=fill_tree(tree)
 tree.print_tree()
+print(f'Tree Height {tree.height()}')
+tree.insert(292)
+print(tree.search(292))
