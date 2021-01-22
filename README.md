@@ -18,6 +18,9 @@ A tree data structure has a root, branches and leaves. The difference between a 
 Another example of a tree structure that you probably use every day is a file system. In a file system, directories or folders are structure as a tree. 
 
 # Sorting Algorithms
+| Algorithm | Best Case | Average Case | Worst Case |
+|-|-|-|-|
+| Bubble Sort | O(n) | O(n**2) | O(n**2) |
 ## 1. Bubble Sort
 ## 2. Selection Sort
 
