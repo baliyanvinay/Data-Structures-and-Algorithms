@@ -21,6 +21,14 @@ Another example of a tree structure that you probably use every day is a file sy
 | Algorithm | Best Case | Average Case | Worst Case |
 |-|-|-|-|
 | Bubble Sort | O(n) | O(n**2) | O(n**2) |
+| Selection Sort |
+| Insertion Sort |
+| Merge Sort |
+| Quick Sort |
+| Heap Sort |
+| Counting Sort |
+| Radix Sort |
+| Bucket Sort |
 ## 1. Bubble Sort
 ## 2. Selection Sort
 ## 3. Insertion Sort
