@@ -23,6 +23,13 @@ Another example of a tree structure that you probably use every day is a file sy
 | Bubble Sort | O(n) | O(n**2) | O(n**2) |
 ## 1. Bubble Sort
 ## 2. Selection Sort
+## 3. Insertion Sort
+## 4. Merge Sort
+## 5. Quick Sort
+## 6. Heap Sort
+## 7. Counting Sort
+## 8. Radix Sort
+## 9. Bucket Sort
 
 # Searching Algorithms
 ## 1. Binary Search
