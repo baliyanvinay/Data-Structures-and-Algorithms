@@ -2,7 +2,7 @@
 """
 Created on Mon Aug 17 09:26:49 2020
 
-@author: 1037624
+@author: Vinay Baliyan
 """
 
 # Data Structure Linked List
