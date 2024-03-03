@@ -2,7 +2,7 @@
 check if the sequence of parenthesis is balanced
 """
 
-from Stack import Stack
+from stack import Stack
 
 input_1 = "[()]{}{[()()]()}"
 input_2 = "[(])"

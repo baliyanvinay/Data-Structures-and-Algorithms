@@ -13,6 +13,7 @@ class Stack:
     def peep(self):
         return self.items[-1]
 
+    @property
     def isEmpty(self):
         return len(self.items) == 0
 
