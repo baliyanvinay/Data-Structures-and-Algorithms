@@ -17,27 +17,6 @@ A deque, also known as a double-ended queue, is an ordered collection of items s
 A tree data structure has a root, branches and leaves. The difference between a tree in nature and a tree in computer science is that a tree data structure has its root at the top and its leaves on the bottom. All of the children of one node are independent of the children of another node. Each leaf node is unique. 
 Another example of a tree structure that you probably use every day is a file system. In a file system, directories or folders are structure as a tree. 
 
-# Sorting Algorithms
-| Algorithm | Best Case | Average Case | Worst Case |
-|-|-|-|-|
-| Bubble Sort | O(n) | O(n**2) | O(n**2) |
-| Selection Sort |
-| Insertion Sort |
-| Merge Sort |
-| Quick Sort |
-| Heap Sort |
-| Counting Sort |
-| Radix Sort |
-| Bucket Sort |
-## 1. Bubble Sort
-## 2. Selection Sort
-## 3. Insertion Sort
-## 4. Merge Sort
-## 5. Quick Sort
-## 6. Heap Sort
-## 7. Counting Sort
-## 8. Radix Sort
-## 9. Bucket Sort
 
 # Searching Algorithms
 ## 1. Binary Search
