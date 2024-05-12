@@ -1,11 +1,11 @@
 # Sorting Algorithms
 | Algorithm | Best Case | Average Case | Worst Case |
 |-|-|-|-|
-| Bubble Sort | O(n) | O(n**2) | O(n**2) |
+| Bubble Sort | n | n**2 | n**2 |
 | Selection Sort |
 | Insertion Sort |
 | Merge Sort |
-| Quick Sort |
+| Quick Sort | nlogn | nlogn | nlogn |
 | Heap Sort |
 | Counting Sort |
 | Radix Sort |
